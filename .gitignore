@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+output/reports/*.md
+inputs/models/*
+inputs/data/*
+inputs/knowledge/*
+!inputs/models/.gitkeep
+!inputs/data/.gitkeep
+!inputs/knowledge/.gitkeep

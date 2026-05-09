@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  agent:
+    build: .
+    env_file: .env
+    volumes:
+      - ./inputs/models:/app/inputs/models
+      - ./inputs/data:/app/inputs/data
+      - ./output/reports:/app/output/reports

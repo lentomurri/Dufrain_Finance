@@ -1,0 +1,8 @@
+# Core
+pyautogen==0.2.35
+llama-index==0.10.68
+llama-index-embeddings-openai==0.1.11
+openai==1.40.0
+
+# Utilities
+python-dotenv==1.0.1
